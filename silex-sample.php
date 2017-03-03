@@ -1,10 +1,14 @@
 <?php
+
+/**
+ *	Sample silex implementation for custom tiny url redirection system (ie bit.ly). Supports custom alphabet and salt.
+ */
+
 require '../vendor/autoload.php';
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\ParameterBag;
-use Dompdf\Dompdf;
 use Hashids\Hashids;
 
 Request::setTrustedProxies(['172.31.0.0/16']);

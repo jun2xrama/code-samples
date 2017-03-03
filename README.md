@@ -1,2 +1,3 @@
 # code-samples
-Code snippets
+<br />
+Code snippets from different projects.

@@ -1,3 +1,9 @@
+
+/**
+ *	Sample ReactJS component using ES6 with babel and webpack.
+ */
+
+
 import React from 'react';
 import NotificationSystem from 'react-notification-system';
 
